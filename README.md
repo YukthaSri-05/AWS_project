@@ -1,39 +1,54 @@
-🤖 TH-Bot (Technical Hub Chatbot)
-TH-Bot is an intelligent chatbot designed for Technical Hub to provide instant assistance,
-event registration, and mentor/course guidance.
-It is built with AWS cloud services and supports integration with websites and applications.
+# 🤖 TH-Bot (Technical Hub Chatbot)
 
-Why TH-Bot?
+TH-Bot is an intelligent chatbot designed for **Technical Hub** to provide instant assistance, event registration, and mentor/course guidance.  
+It is built with **AWS cloud services** and supports integration with websites and applications.
 
-Reduces manual effort in answering repetitive queries
-Provides real-time assistance for students
-Easy integration with websites & apps
-Scalable and secure with AWS services
-🚀 Features
-✅ Answer FAQs about Technical Hub
-✅ Event Registration via chatbot
-✅ Mentor & Course Info retrieval
-✅ Integration with Web & Mobile Apps
-✅ AWS-powered Backend APIs
-✅ Secure Authentication with IAM Roles
-🏗️ Architecture
+---
+
+## ❓ Why TH-Bot?
+
+- Reduces manual effort in answering repetitive queries  
+- Provides real-time assistance for students  
+- Easy integration with websites & apps  
+- Scalable and secure with AWS services  
+
+---
+
+## 🚀 Features
+
+- ✅ **Answer FAQs** about Technical Hub  
+- ✅ **Event Registration** via chatbot  
+- ✅ **Mentor & Course Info** retrieval  
+- ✅ **Integration** with Web & Mobile Apps  
+- ✅ **AWS-powered Backend APIs**  
+- ✅ **Secure Authentication** with IAM Roles  
+
+---
+
+## 🏗️ Architecture
+
 The project follows a cloud-native architecture:
 
-Frontend: React / HTML / CSS / JavaScript
-Backend: Flask (Python) / AWS Lambda (Serverless)
-Database: AWS DynamoDB / S3
-Hosting: AWS EC2, S3 (Static Hosting)
-Authentication: AWS IAM Roles & Policies
-APIs: AWS API Gateway
-High-Level Flow:
+- **Frontend:** React / HTML / CSS / JavaScript  
+- **Backend:** Flask (Python) / AWS Lambda (Serverless)  
+- **Database:** AWS DynamoDB / S3  
+- **Hosting:** AWS EC2, S3 (Static Hosting)  
+- **Authentication:** AWS IAM Roles & Policies  
+- **APIs:** AWS API Gateway  
 
-User interacts with the chatbot (UI).
-Frontend sends query → Backend API (Flask / Lambda).
-Backend fetches data from DynamoDB / S3.
-Response is processed and sent back to the chatbot UI.
+**High-Level Flow:**  
+User interacts with the chatbot (UI).  
+Frontend sends query → Backend API (Flask / Lambda).  
+Backend fetches data from DynamoDB / S3.  
+Response is processed and sent back to the chatbot UI.  
 
-🛠️ Tech Stack
-Languages: Python, JavaScript, HTML, CSS
-Frameworks: React, Flask
-Cloud Services: AWS EC2, S3, API Gateway, Lambda, DynamoDB, IAM
-Tools: Git, GitHub, VS Code
+---
+
+## 🛠 Tech Stack
+
+**Languages:** Python, JavaScript, HTML, CSS  
+**Frameworks:** React, Flask  
+**Cloud Services:** AWS EC2, S3, API Gateway, Lambda, DynamoDB, IAM  
+**Tools:** Git, GitHub, VS Code  
+
+---
