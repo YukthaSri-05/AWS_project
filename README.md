@@ -1,5 +1,6 @@
 🤖 TH-Bot (Technical Hub Chatbot)
-TH-Bot is an intelligent chatbot designed for Technical Hub to provide instant assistance, event registration, and mentor/course guidance.
+TH-Bot is an intelligent chatbot designed for Technical Hub to provide instant assistance,
+event registration, and mentor/course guidance.
 It is built with AWS cloud services and supports integration with websites and applications.
 
 Why TH-Bot?
@@ -30,6 +31,7 @@ User interacts with the chatbot (UI).
 Frontend sends query → Backend API (Flask / Lambda).
 Backend fetches data from DynamoDB / S3.
 Response is processed and sent back to the chatbot UI.
+
 🛠️ Tech Stack
 Languages: Python, JavaScript, HTML, CSS
 Frameworks: React, Flask
